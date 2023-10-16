@@ -16,7 +16,15 @@ namespace ReplaceFileKeyWord
         public Form1()
         {
             InitializeComponent();
+            initListView();
         }
+        private void initListView() 
+        {
+            //初始化listview
+            list_view.View = View.Details;
+            list_view.Columns.Add("原关键词",list_view.Width/2);
+            list_view.Columns.Add("修改后的关键词", list_view.Width / 2);
+         }
 
         private void btn_select_dir_Click(object sender, EventArgs e)
         {

@@ -30,6 +30,7 @@
         {
             this.btn_select_dir = new System.Windows.Forms.Button();
             this.label_select_folder = new System.Windows.Forms.Label();
+            this.list_view = new System.Windows.Forms.ListView();
             this.SuspendLayout();
             // 
             // btn_select_dir
@@ -51,11 +52,21 @@
             this.label_select_folder.TabIndex = 1;
             this.label_select_folder.Text = "请选择文件夹";
             // 
+            // list_view
+            // 
+            this.list_view.HideSelection = false;
+            this.list_view.Location = new System.Drawing.Point(12, 41);
+            this.list_view.Name = "list_view";
+            this.list_view.Size = new System.Drawing.Size(229, 397);
+            this.list_view.TabIndex = 2;
+            this.list_view.UseCompatibleStateImageBehavior = false;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.list_view);
             this.Controls.Add(this.label_select_folder);
             this.Controls.Add(this.btn_select_dir);
             this.Name = "Form1";
@@ -69,6 +80,7 @@
 
         private System.Windows.Forms.Button btn_select_dir;
         private System.Windows.Forms.Label label_select_folder;
+        private System.Windows.Forms.ListView list_view;
     }
 }
 
