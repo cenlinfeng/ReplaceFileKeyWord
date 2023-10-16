@@ -8,3 +8,13 @@ D:\VisualStudio\ReplaceFileKeyWord\obj\Debug\ReplaceFileKeyWord.csproj.GenerateR
 D:\VisualStudio\ReplaceFileKeyWord\obj\Debug\ReplaceFileKeyWord.csproj.CoreCompileInputs.cache
 D:\VisualStudio\ReplaceFileKeyWord\obj\Debug\ReplaceFileKeyWord.exe
 D:\VisualStudio\ReplaceFileKeyWord\obj\Debug\ReplaceFileKeyWord.pdb
+G:\Project\CShape\ReplaceFileKeyWord\bin\Debug\ReplaceFileKeyWord.exe.config
+G:\Project\CShape\ReplaceFileKeyWord\bin\Debug\ReplaceFileKeyWord.exe
+G:\Project\CShape\ReplaceFileKeyWord\bin\Debug\ReplaceFileKeyWord.pdb
+G:\Project\CShape\ReplaceFileKeyWord\obj\Debug\ReplaceFileKeyWord.csproj.AssemblyReference.cache
+G:\Project\CShape\ReplaceFileKeyWord\obj\Debug\ReplaceFileKeyWord.Form1.resources
+G:\Project\CShape\ReplaceFileKeyWord\obj\Debug\ReplaceFileKeyWord.Properties.Resources.resources
+G:\Project\CShape\ReplaceFileKeyWord\obj\Debug\ReplaceFileKeyWord.csproj.GenerateResource.cache
+G:\Project\CShape\ReplaceFileKeyWord\obj\Debug\ReplaceFileKeyWord.csproj.CoreCompileInputs.cache
+G:\Project\CShape\ReplaceFileKeyWord\obj\Debug\ReplaceFileKeyWord.exe
+G:\Project\CShape\ReplaceFileKeyWord\obj\Debug\ReplaceFileKeyWord.pdb

@@ -20,10 +20,17 @@ namespace ReplaceFileKeyWord
         }
         private void initListView() 
         {
-            //初始化listview
-            list_view.View = View.Details;
-            list_view.Columns.Add("原关键词",list_view.Width/2);
-            list_view.Columns.Add("修改后的关键词", list_view.Width / 2);
+            DataGridViewTextBoxColumn oldNameColumn = new DataGridViewTextBoxColumn();
+            oldNameColumn.Name = "old_name";
+            oldNameColumn.DataPropertyName = "old_name";
+            oldNameColumn.HeaderText = "旧的关键词";
+            data_grid_view.Columns.Add(oldNameColumn);
+
+            DataGridViewTextBoxColumn newNameColumn = new DataGridViewTextBoxColumn();
+            newNameColumn.Name = "new_name";
+            newNameColumn.DataPropertyName = "new_name";
+            newNameColumn.HeaderText = "新的关键词";
+            data_grid_view.Columns.Add(newNameColumn);
          }
 
         private void btn_select_dir_Click(object sender, EventArgs e)
@@ -53,6 +60,16 @@ namespace ReplaceFileKeyWord
             else 
             {
                 label_select_folder.Text = text;
+            }
+        }
+
+        private void btn_replace_Click(object sender, EventArgs e)
+        {
+            //先遍历里面的数据
+            for (int i =0;i<data_grid_view.Rows.Count-1;i++) {
+                string oldName = data_grid_view.Rows[i].Cells[0].Value.ToString();
+                string newName = data_grid_view.Rows[i].Cells[1].Value.ToString();
+                Console.WriteLine(oldName + " " + newName);
             }
         }
     }
