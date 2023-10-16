@@ -1,0 +1,10 @@
+D:\VisualStudio\ReplaceFileKeyWord\bin\Debug\ReplaceFileKeyWord.exe.config
+D:\VisualStudio\ReplaceFileKeyWord\bin\Debug\ReplaceFileKeyWord.exe
+D:\VisualStudio\ReplaceFileKeyWord\bin\Debug\ReplaceFileKeyWord.pdb
+D:\VisualStudio\ReplaceFileKeyWord\obj\Debug\ReplaceFileKeyWord.csproj.AssemblyReference.cache
+D:\VisualStudio\ReplaceFileKeyWord\obj\Debug\ReplaceFileKeyWord.Form1.resources
+D:\VisualStudio\ReplaceFileKeyWord\obj\Debug\ReplaceFileKeyWord.Properties.Resources.resources
+D:\VisualStudio\ReplaceFileKeyWord\obj\Debug\ReplaceFileKeyWord.csproj.GenerateResource.cache
+D:\VisualStudio\ReplaceFileKeyWord\obj\Debug\ReplaceFileKeyWord.csproj.CoreCompileInputs.cache
+D:\VisualStudio\ReplaceFileKeyWord\obj\Debug\ReplaceFileKeyWord.exe
+D:\VisualStudio\ReplaceFileKeyWord\obj\Debug\ReplaceFileKeyWord.pdb
