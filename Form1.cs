@@ -72,10 +72,39 @@ namespace ReplaceFileKeyWord
         {
             getUpdateKeyWord();//获取关键词
             //在选择的文件夹里面找文件和文件夹
-            if (!File.Exists(folderPath)) {
+            if (!Directory.Exists(folderPath)) {
                 MessageBox.Show("没有这个文件夹");
                 return;
             }
+            replaceKeyWord(folderPath);
+        }
+
+        private void replaceKeyWord(string dirPath) 
+        {
+            //先获得所有的文件夹和文件名
+            List<string> files =  getAllFileDirName(dirPath);
+            foreach (string filePath in files) 
+            { 
+                Console.WriteLine(filePath);
+            }
+            Console.WriteLine(files.Count);
+        }
+
+        private List<string> getAllFileDirName(string dirPath) 
+        {
+            List<string> files = new List<string>();
+            string[] dirs =  Directory.GetDirectories(dirPath);
+            if (dirs.Length>0) {
+                files.AddRange(dirs);
+                foreach (string dir in dirs)
+                {
+                    List<string> subDirs = getAllFileDirName(dir);
+                    files.AddRange(subDirs);
+                }
+            }
+            string[] fileStrs = Directory.GetFiles(dirPath);
+            files.AddRange(fileStrs);
+            return files ;
         }
 
         private void getUpdateKeyWord() {
